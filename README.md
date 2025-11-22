@@ -88,3 +88,12 @@ Options:
 - **Priority scheduling**: Emergency flights prioritized
 - **ASCII visualization**: Console-based simulation display
 
+
+## Lessons learnt:
+- Model needs more training. 200,000 timesteps performed well but I think a million would do a better job here
+- Reward function is too penalty-heavy. I think I still need to figure out appropriate model structures for simple DQN projects
+- The model needs to explore more. Currently its being overly cautious
+
+### Conclusion
+
+- I need to implement better rewards, allow the model to explore more and train it for a lot more timesteps
